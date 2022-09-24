@@ -141,7 +141,8 @@ Since the Serenity reports contain aggregate information about all of the tests,
 After you run your test and use `mvn serenity:aggregate` you can find the reports on index.html located in the `target/site/serenity` directory. Screenshots will be taken only when test fails (but you can change this behaviour on `serenity.properties`). Navigate to Test Results and click on the Scenario that has failed.
 
 You should see a report like this sample:
-![plot](Testing QA/serenity-error-screenshot.png)
+![Screenshot](https://github.com/Tusuegra510/qa.automation.framework/blob/main/Testing%20QA/serenity-error-screenshot.png)
+
 
 The reports are also integrated into the Maven build process: the following code in the `pom.xml` file causes the reports to be generated automatically once all the tests have completed when you run `mvn verify`?
 
