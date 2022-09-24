@@ -12,7 +12,15 @@ git clone https://github.com/Tusuegra510/qa.automation.framework.git
 
 Or simply [download a zip](https://github.com/Tusuegra510/qa.automation.framework.git) file.
 
-### The project directory structure
+## Prerequisites
+### Local Setup instructions:
+To run this project locally you will need to have the following apps installed.
+- Maven or Gradle
+- IntelliJ IDEA
+- Java JDK (1.8+)
+- Cucumber for Java Plugin (IntelliJ IDEA)
+
+## The project directory structure
 The project has build scripts for both Maven and Gradle, and follows the standard directory structure used in most Serenity projects:
 ```Gherkin
 src
