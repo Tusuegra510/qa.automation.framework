@@ -13,5 +13,5 @@ Feature: Validate login
 
   Scenario: Verify that the User is not able to log in with invalid credentials
     When he login with invalid credentials. Username: "invalid_user" Password: "invalid_sauce"
-    Then he should see a validation message that would say: "Epic sadface: Username and password do not match any user in this service"
+    Then he should see a validation message that would say: "EEpic sadface: Username and password do not match any user in this service"
 
