@@ -43,4 +43,9 @@ public class SearchStepDefinitions {
                 Ensure.that(LoginSection.ERROR_MESSAGE).hasText(term)
         );
     }
+
+    @When("{actor} login with invalid credentials. Username: {string} Password: {string}")
+    public void loginToPageWithInvalidCredentials(Actor actor, String username, String password) {
+        loginToPage(actor, username, password);
+    }
 }
