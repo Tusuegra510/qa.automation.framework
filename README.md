@@ -72,7 +72,7 @@ public void researchingProducts(Actor actor) {
 		}
 
 @When("{actor} login with valid credentials. Username: {string} Password: {string}")
-public void loginToPage(Actor actor, String username, String password) throws InterruptedException {
+public void loginToPage(Actor actor, String username, String password) {
 		actor.attemptsTo(
 		performLogin.about(username, password)
 		);
