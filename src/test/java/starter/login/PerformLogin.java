@@ -5,13 +5,13 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
 import org.openqa.selenium.Keys;
 
-public class performLogin {
+public class PerformLogin {
     public static Performable about(String username, String password) {
         return Task.where("{0} login with valid credentials",
                 Enter.theValue(username)
-                        .into(loginBox.USERNAME_FIELD),
+                        .into(LoginBox.USERNAME_FIELD),
                 Enter.theValue(password)
-                        .into(loginBox.PASSWORD_FIELD)
+                        .into(LoginBox.PASSWORD_FIELD)
                         .thenHit(Keys.ENTER)
         );
     }
